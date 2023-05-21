@@ -75,6 +75,7 @@ header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .nav-list {
@@ -96,6 +97,7 @@ header {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.02em;
+  color: var(--primary-title-color);
 }
 
 .nav-link:hover,
@@ -156,8 +158,8 @@ header {
 /* --------------header--------------- */
 
 .section {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* --------------hero--------------- */
@@ -223,7 +225,7 @@ header {
 }
 
 .principles-title {
-  color: var(--title-color);
+  color: var(--primary-title-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -251,6 +253,7 @@ header {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--primary-title-color);
   margin-bottom: 50px;
 }
 
@@ -280,6 +283,7 @@ header {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--primary-title-color);
   margin-bottom: 50px;
 }
 
@@ -315,7 +319,6 @@ header {
 }
 
 .team-text {
-  color: var(--main-background-color);
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -352,13 +355,17 @@ header {
   padding: 6px 22px;
   border: 0;
   border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--style-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 /* --------------filter--------------- */
 
@@ -395,11 +402,11 @@ header {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  color: var(--title-color);
+  color: var(--primary-title-color);
+  letter-spacing: 0.06em;
 }
 
 .portfolio-text {
-  color: var(--main-color);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
